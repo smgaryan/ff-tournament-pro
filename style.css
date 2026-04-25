@@ -115,3 +115,59 @@ input {
   0% { background-position: 0% }
   100% { background-position: 400% }
 }
+
+.btn {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(45deg, gold, orange);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px gold, 0 0 40px orange;
+  transform: scale(1.05);
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(45deg, gold, orange);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px gold, 0 0 40px orange;
+  transform: scale(1.05);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.05);
+  color: white;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: gold;
+  box-shadow: 0 0 10px gold;
+}
+
+body {
+  background: radial-gradient(circle at top, #111, #000);
+}
